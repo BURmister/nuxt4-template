@@ -1,0 +1,7 @@
+export default defineEventHandler(() => {
+   return `User-agent: *
+Allow: /
+
+Sitemap: http://localhost:3000/sitemap.xml`;
+});
+

@@ -1,0 +1,29 @@
+@use './tailwind.css';
+@use './colors.scss';
+@use './ui.scss';
+@use './fonts.scss';
+@use './layout.scss';
+
+html {
+   scrollbar-gutter: stable;
+}
+
+body * {
+   scrollbar-width: thin;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+   margin: 0;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+}
+

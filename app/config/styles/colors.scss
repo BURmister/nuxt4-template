@@ -1,0 +1,63 @@
+:root {
+   --white: #ffffff;
+   --page-bg: #f4f6fb;
+   --surface: #ffffff;
+   --surface-muted: #e9eef8;
+
+   --text-primary: #1f2a44;
+   --text-secondary: #61708f;
+   --text-muted: #8d98af;
+
+   --brand-primary: #204ecf;
+   --brand-primary-dark: #163b9f;
+   --brand-accent: #dbe7ff;
+   --brand-contrast: #ffffff;
+
+   --line: #d7dfef;
+   --success: #2b7a4b;
+   --danger: #d14d72;
+
+   color: var(--text-primary);
+   background-color: var(--page-bg);
+}
+
+*::selection {
+   background-color: rgba(32, 78, 207, 0.16);
+}
+
+.background {
+   &-page {
+      background-color: var(--page-bg);
+   }
+
+   &-surface {
+      background-color: var(--surface);
+   }
+
+   &-surface-muted {
+      background-color: var(--surface-muted);
+   }
+
+   &-brand {
+      background-color: var(--brand-primary);
+   }
+}
+
+.text {
+   &-primary {
+      color: var(--text-primary);
+   }
+
+   &-secondary {
+      color: var(--text-secondary);
+   }
+
+   &-muted {
+      color: var(--text-muted);
+   }
+
+   &-brand {
+      color: var(--brand-primary);
+   }
+}
+
