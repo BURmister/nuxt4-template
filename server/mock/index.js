@@ -2,8 +2,7 @@ export const HOME_PAGE = {
    hero: {
       eyebrow: 'Nuxt 4 Starter',
       title: 'Шаблон проекта с понятной архитектурой и живыми примерами',
-      description:
-         'Основа для нового проекта: страницы, виджеты, shared-компоненты, локальный API, composables и stores уже разложены по местам.',
+      description: 'Основа для нового проекта: страницы, виджеты, shared-компоненты, локальный API, composables и stores уже разложены по местам.',
       actions: [
          { label: 'Открыть статьи', to: '/articles' },
          { label: 'Посмотреть UI', to: '/ui' },
@@ -69,8 +68,8 @@ export const ARTICLES = [
       publishedAt: '2026-04-06',
       sort: 30,
       body: `
-         <p>Пока реальный backend еще не готов, фронтенд может жить на локальном `server/api`. Это снимает блокеры, позволяет верстать живые списки и проверять SSR-флоу.</p>
-         <p>Когда внешний API появится, вы просто переключаете `runtimeConfig.public.apiPrefix`.</p>
+         <p>Пока реальный backend еще не готов, фронтенд может жить на локальном "server/api". Это снимает блокеры, позволяет верстать живые списки и проверять SSR-флоу.</p>
+         <p>Когда внешний API появится, вы просто переключаете "runtimeConfig.public.apiPrefix".</p>
       `,
    },
    {
@@ -138,4 +137,3 @@ export const CONTACTS_PAGE = {
       },
    ],
 };
-
