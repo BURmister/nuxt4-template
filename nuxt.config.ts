@@ -1,7 +1,10 @@
 import { resolve } from 'path';
 
 export default defineNuxtConfig({
-   modules: ['@nuxtjs/tailwindcss', '@nuxt/image', 'nuxt-swiper', '@pinia/nuxt', 'radix-vue/nuxt', '@nuxtjs/sitemap'],
+   modules: ['@burburo/wishes-nuxt', '@nuxtjs/tailwindcss', '@nuxt/image', 'nuxt-swiper', '@pinia/nuxt', 'radix-vue/nuxt', '@nuxtjs/sitemap'],
+   wishes: {
+      apiBase: 'https://rcmaz.tw1.ru',
+   },
    alias: {
       '@shared': resolve(__dirname, 'app/components/shared'),
       '@widgets': resolve(__dirname, 'app/components/widgets'),
